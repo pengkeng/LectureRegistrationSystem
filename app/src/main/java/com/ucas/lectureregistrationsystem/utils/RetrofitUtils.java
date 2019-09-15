@@ -26,7 +26,7 @@ public class RetrofitUtils {
     }
 
     public static void register(String name, String phone, final CallBack callBack) {
-        RetrofitManager.getInstance().getRetrofit().create(UserApi.class).register(name, phone, "cugb").enqueue(new Callback<BaseResponse>() {
+        RetrofitManager.getInstance().getRetrofit().create(UserApi.class).register(name, phone).enqueue(new Callback<BaseResponse>() {
             @Override
             public void onResponse(Call<BaseResponse> call, Response<BaseResponse> response) {
                 callBack.onSuccess(response);
