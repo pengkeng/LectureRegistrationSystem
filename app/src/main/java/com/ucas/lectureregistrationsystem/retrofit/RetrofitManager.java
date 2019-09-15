@@ -7,7 +7,8 @@ public class RetrofitManager {
     private static RetrofitManager mInstance;
     private static String baseUrl="http://172.20.17.57:8081";
     private static String publicBaseUrl="http://112.74.63.8:8081";
-    private static String LocalBaseUrl="http://124.16.125.183:8081";
+    private static String LocalBaseUrl="http://124.16.125.183:8080";
+    private static String LocalBaseTEXTUrl="http://124.16.125.183:8081";
 
     public static RetrofitManager getInstance() {
         if (mInstance == null) {

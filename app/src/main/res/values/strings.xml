@@ -4,4 +4,12 @@
     <string name="password_hint">请输入密码</string>
     <string name="login">登陆</string>
     <string name="register">注册</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="regiser_phone">请输入手机号</string>
+    <string name="send">发送验证码</string>
+    <string name="next">下一步</string>
+    <string name="regiser_code_hint">请输入验证码</string>
 </resources>

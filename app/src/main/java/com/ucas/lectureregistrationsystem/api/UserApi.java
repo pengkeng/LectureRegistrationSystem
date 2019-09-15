@@ -13,11 +13,11 @@ import retrofit2.http.Query;
 
 public interface UserApi {
 
-    @Headers({"Content-Type: application/json","Accept: application/json"})
-    @POST("Test/login")
-    Call<BaseResponse> login(@Query("username") String username,@Query("password") String password);
+    @Headers({"Content-Type: application/json", "Accept: application/json"})
+    @POST("UCAS/login")
+    Call<BaseResponse> login(@Query("username") String username, @Query("password") String password);
 
-    @POST("Register")
-    Call<BaseResponse> register(@Query("name") String name, @Query("phone") String phone, @Query("companyId") String companyId);
+    @POST("UCAS/Register")
+    Call<BaseResponse> register(@Query("password") String name, @Query("phoneNumber") String phoneNumber);
 
 }
